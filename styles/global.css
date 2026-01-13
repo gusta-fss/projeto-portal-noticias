@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
 }
 
 :root {
@@ -14,33 +13,18 @@
     --text-color-secondary: #CBD5E1;
     
     --font-family: "Archivo", sans-serif;
+    --text: 14px/145% var(--font-family);
 }
 
 body {
     background-color: var(--bg-color);
-    font-family: var(--font-family);
     color: var(--text-color-primary);
+    font: var(--text);
 }
 
 h1 {
-    font: bolder 24px/135% var(--font-family);
+    font: bold 24px var(--font-family);
     color: var(--brand-color-light);
-}
-
-h2 {
-    font: bold 16px/140% var(--font-family);
-}
-
-h3 {
-    font: bold 14px/140% var(--font-family);
-}
-
-p {
-    font: bold 14px/145% var(--font-family);
-}
-
-span {
-    font: 14px/160% var(--font-family);
 }
 
 a {
