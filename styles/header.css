@@ -1,13 +1,31 @@
 header {
+    max-width: 1280px;
+    margin-inline: auto;
+}
+
+#primary,
+#secondary {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-block: 20px;
-    height: 72px;
+    padding-inline: 32px;
 }
 
-header a {
-    gap: 8px;
-    height: 20px;
-    font: bold 16px/140% var(--font-family);
+#primary {
+    padding-block: 20px;
+
+    a {
+        gap: 8px;
+        font: var(--text-h2);
+    }
+}
+
+#secondary {
+    padding-block: 14px;
+    border-block: 1px solid var(--stroke-color);
+
+    a {
+        font: var(--text-span);
+        color: var(--text-color-secondary);
+    }
 }
