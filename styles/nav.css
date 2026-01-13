@@ -1,0 +1,12 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 14px;
+    border-block: 1px solid var(--stroke-color);
+}
+
+nav a {
+    font: 660 14px/145% var(--font-family);
+    color: var(--text-color-secondary);
+}
