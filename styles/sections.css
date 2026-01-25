@@ -91,20 +91,17 @@ section {
 #AI {
 
     img {
-        height: 176px;
         width: 176px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
     }
 
     article {
         align-items: center;
         width: 696px;
 
-        span {
-            margin-bottom: 8px;
-        }
-
         h2 {
-            margin-bottom: 4px;
+            margin-block: 8px 4px;
         }
 
         p {
