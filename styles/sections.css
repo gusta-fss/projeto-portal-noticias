@@ -82,9 +82,50 @@ section {
             left: 8px;
         }
 
-        p {
+        h2 {
             margin-top: 8px;
-            font-weight: 800;
+        }
+    }
+}
+
+#AI {
+
+    img {
+        height: 176px;
+        width: 176px;
+    }
+
+    article {
+        align-items: center;
+        width: 696px;
+
+        span {
+            margin-bottom: 8px;
+        }
+
+        h2 {
+            margin-bottom: 4px;
+        }
+
+        p {
+            color: var(--text-color-secondary);
+        }
+    }
+}
+
+#more {
+    figure {
+
+        align-items: center;
+        gap: 15px;
+
+        img {
+            width: 72px;
+            height: 72px;
+        }
+
+        figcaption span {
+            margin-bottom: 8px;
         }
     }
 }
